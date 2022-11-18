@@ -31,10 +31,18 @@
     },
     "contact": {
         "title": "contattaci",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam consequuntur debitis harum vel excepturi animi voluptate magnam soluta, accusantium numquam quos, minima eius, cumque aliquid ex natus labore id!"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam consequuntur debitis harum vel excepturi animi voluptate magnam soluta, accusantium numquam quos, minima eius, cumque aliquid ex natus labore id!",
+        "form": {
+            "label": "Lascia un tuo recapito e ti contatteremo",
+            "placeholder": "Inserisci un'email",
+            "text": "Non condivideremo il tuo indirizzo email",
+            "button": "Invia"
+        }
     },
     "policy": {
         "header": "Testo lungo da fare accettare",
+        "preferencesButton": "Preferenze",
+        "acceptAllButton": "Accetta tutti",
         "modal": {
             "header": "Impostazioni cookie",
             "performance": {
