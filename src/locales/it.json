@@ -1,0 +1,50 @@
+{
+    "menu": {
+        "home": "home",
+        "about": "about us",
+        "explore": "esplora",
+        "contact": "contattaci"
+    },
+    "home": {
+        "title": "Esplora le opportunità che il web ti offre",
+        "description": "Lascia che la tecnologia crei nuove occasioni per la tua attività"
+    },
+    "about": {
+        "title": "about us",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam consequuntur debitis harum vel excepturi animi voluptate magnam soluta, accusantium numquam quos, minima eius, cumque aliquid ex natus labore id!"
+    },
+    "explore": {
+        "title": "Servizi",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam consequuntur debitis harum vel excepturi animi voluptate magnam soluta, accusantium numquam quos, minima eius, cumque aliquid ex natus labore id!",
+        "service1": {
+            "title": "rinnova il tuo brand",
+            "description": "short description"
+        },
+        "service2": {
+            "title": "mostra i tuoi servizi",
+            "description": "short description"
+        },
+        "service3": {
+            "title": "fatti conoscere",
+            "description": "short description"
+        }
+    },
+    "contact": {
+        "title": "contattaci",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laboriosam consequuntur debitis harum vel excepturi animi voluptate magnam soluta, accusantium numquam quos, minima eius, cumque aliquid ex natus labore id!"
+    },
+    "policy": {
+        "header": "Testo lungo da fare accettare",
+        "modal": {
+            "header": "Impostazioni cookie",
+            "performance": {
+                "title": "Prestazioni",
+                "description": ""
+            },
+            "analytics": {
+                "title": "Google Analytics",
+                "description": ""
+            }
+        }
+    }
+}

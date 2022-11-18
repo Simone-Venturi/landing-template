@@ -1,0 +1,49 @@
+{
+    "menu": {
+        "home": "home",
+        "about": "about us",
+        "explore": "explore",
+        "contact": "contact us"
+    },
+    "home": {
+        "title": "Find out new odds",
+        "description": ""
+    },
+    "about": {
+
+    },
+    "explore": {
+        "title": "",
+        "description": "",
+        "service1": {
+            "title": "",
+            "description": ""
+        },
+        "service2": {
+            "title": "",
+            "description": ""
+        },
+        "service3": {
+            "title": "",
+            "description": ""
+        }
+    },
+    "contact": {
+        "title": "",
+        "description": ""
+    },
+    "policy": {
+        "header": "",
+        "modal": {
+            "header": "cookie settings",
+            "performance": {
+                "title": "",
+                "description": ""
+            },
+            "analytics": {
+                "title": "Google Analytics",
+                "description": ""
+            }
+        }
+    }
+}
