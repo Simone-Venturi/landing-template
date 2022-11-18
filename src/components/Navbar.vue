@@ -18,22 +18,22 @@
         <div class="navbar-nav ml-auto">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <RouterLink :to="'/#' + $t('menu.home')" class="nav-link">
+              <RouterLink :to="'/#' + $t('menu.home')" class="nav-link" @click="collapseNav" >
                 {{ $t("menu.home") }}
               </RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink :to="'/#' + $t('menu.about')" class="nav-link">
+              <RouterLink :to="'/#' + $t('menu.about')" class="nav-link" @click="collapseNav">
                 {{ $t("menu.about") }}
               </RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink :to="'/#' + $t('menu.explore')" class="nav-link">
+              <RouterLink :to="'/#' + $t('menu.explore')" class="nav-link" @click="collapseNav">
                 {{ $t("menu.explore") }}
               </RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink :to="'/#' + $t('menu.contact')" class="nav-link">
+              <RouterLink :to="'/#' + $t('menu.contact')" class="nav-link" @click="collapseNav">
                 {{ $t("menu.contact") }}
               </RouterLink>
             </li>
@@ -50,6 +50,11 @@ export default {
   components: {
     RouterLink,
   },
+  methods: {
+    collapseNav() {
+      document.getElementsByClassName('navbar-collapse')[0].classList.remove("show")
+    }
+  }
 };
 </script>
 
