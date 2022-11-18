@@ -1,13 +1,13 @@
 <template>
   <NavbarVue />
   <RouterView />
-  <CookiePolicy id="cookie-policy"/>
+  <CookiePolicy id="cookie-policy" />
 </template>
 
 <script setup>
-import { RouterView } from 'vue-router'
-import NavbarVue from './components/Navbar.vue';
-import CookiePolicy from './components/CookiePolicy.vue'
+import { RouterView } from "vue-router";
+import NavbarVue from "./components/Navbar.vue";
+import CookiePolicy from "./components/CookiePolicy.vue";
 </script>
 
 <style scoped>
@@ -21,8 +21,8 @@ body {
 }
 
 #cookie-policy {
-    position: -webkit-sticky; /* Safari */  
-    position: sticky;
-    bottom: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  bottom: 0;
 }
 </style>
