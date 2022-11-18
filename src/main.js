@@ -12,6 +12,11 @@ import "vue-cookie-comply/dist/style.css";
 import { createI18n } from "vue-i18n";
 import messages from "@intlify/unplugin-vue-i18n/messages";
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faTwitter, faFacebook, faInstagram, faPinterest, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+library.add(faTwitter, faFacebook, faInstagram, faPinterest, faLinkedin )
+
 const i18n = createI18n({
   legacy: false,
   globalInjection: true,
@@ -26,5 +31,7 @@ const app = createApp(App);
 app.use(router);
 app.use(VueCookieComply);
 app.use(i18n);
+
+app.component('font-awesome-icon', FontAwesomeIcon)
 
 app.mount("#app");
